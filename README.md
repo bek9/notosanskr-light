@@ -9,10 +9,12 @@
 
 ## 사용법
 
-1. `notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
-light 버전은 166 - 404 KB 인데 반해 원본은 2.5 MB - 773 KB 이므로 경량화 버전을 추천합니다.
+1.
+`notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
+light 버전은 166 - 404 KB 인데 반해 원본은 2.5 MB - 773 KB 이므로 경량화 버전인 `notosans-lignt`를 추천합니다.
 
-2. CSS에서:
+2.
+CSS에서:
 ```
 @import url(리소스_디렉토리/notosanskr-light/notosanskr.css); // 원본을 사용하고 싶으신 분은 '리소스_디렉토리/notosanskr/notosanskr.css'로 경로를 변경하세요.
 ```
@@ -24,7 +26,8 @@ light 버전은 166 - 404 KB 인데 반해 원본은 2.5 MB - 773 KB 이므로 �
 
 위와 같이 파일을 불러옵니다. [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 link 태그를 사용하는 것이 더 바람직합니다.
 
-3. 이제 `font-family: 'Noto Sans KR', sans-serif;`와 같은 식으로 스타일을 정의하면 폰트를 사용할 수 있습니다.
+3.
+이제 `font-family: 'Noto Sans KR', sans-serif;`와 같은 식으로 스타일을 정의하면 폰트를 사용할 수 있습니다.
 
 ## License
 
@@ -39,3 +42,4 @@ Google Noto Font 라이센스에 의해 [SIL Open Font License, 1.1](http://font
  - [서브셋 폰트 메이커](http://opentype.jp/subsetfontmk.htm)
  - [otf to woff2 converter](https://everythingfonts.com/otf-to-woff2)
  - [otf to woff converter](https://everythingfonts.com/otf-to-woff)
+
