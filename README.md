@@ -27,11 +27,11 @@ CSS에서:
 위와 같이 파일을 불러옵니다. [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 link 태그를 사용하는 것이 더 바람직합니다.
 
 3.
-이제 `font-family: 'Noto Sans KR', sans-serif;`와 같은 식으로 스타일을 정의하면 폰트를 사용할 수 있습니다.
+이제 `font-family: 'Noto Sans KR', sans-serif;` 같은 식으로 스타일을 정의하면 폰트를 사용할 수 있습니다.
 
 ## License
 
-Google Noto Font 라이센스에 의해 [SIL Open Font License, 1.1](http://fonts.gstatic.com/ea/notosanskr/v2/OFL.txt)를 명시합니다.
+Google Noto Font 라이센스에 의해 [SIL Open Font License, 1.1](http://fonts.gstatic.com/ea/notosanskr/v2/OFL.txt)을 명시합니다.
 
 ## References
 
