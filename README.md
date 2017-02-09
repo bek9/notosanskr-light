@@ -21,7 +21,7 @@ CSS에서:
 
 또는 HTML에서:
 ```
-<link rel="stylesheet" type="text/css" href="리소스_디렉토리/notosanskr/notosanskr.css"> <!-- 원본을 사용하고 싶으신 분은  '리소스_디렉토리/notosanskr/notosanskr.css'로 경로를 변경하세요. -->
+<link rel="stylesheet" type="text/css" href="리소스_디렉토리/notosanskr-light/notosanskr.css"> <!-- 원본을 사용하고 싶으신 분은  '리소스_디렉토리/notosanskr/notosanskr.css'로 경로를 변경하세요. -->
 ```
 
 위와 같이 파일을 불러옵니다. [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 link 태그를 사용하는 것이 더 바람직합니다.
