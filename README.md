@@ -4,29 +4,47 @@
 
  - `KS_X_1001_(3432_characters).txt` 경량화에 사용된 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 글리프 3432자입니다.
  - `notosanskr` Google에서 제공하는 [Early Access v2](https://fonts.google.com/earlyaccess#Noto+Sans+KR)를 로컬에서 사용할 수 있도록 링크를 수정한 버전입니다.
- - `notosanskr-light` 아래 OTF 폰트들을 KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
- - `notosanskr-origin` Google의 Early Access에서 제공하는 OTF 원본 파일들입니다. [2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정하고 있습니다.
+ - `notosanskr-light` Google의 Early Access에서 제공하는 원본 OTF 폰트들을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
 
-## 사용법
+## Noto Sans KR Light 사용법
 
-1.
-`notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
-light 버전은 166 - 404 KB 인데 반해 원본은 2.5 MB - 773 KB 이므로 경량화 버전인 `notosans-lignt`를 추천합니다.
+1-1.
+CDN 사용
 
-2.
 CSS에서:
 ```
-@import url(리소스_디렉토리/notosanskr-light/notosanskr.css); // 원본을 사용하고 싶으신 분은 '리소스_디렉토리/notosanskr/notosanskr.css'로 경로를 변경하세요.
+@import url(https://rawgit.com/bek9/notosanskr-light/master/notosanskr-light/notosanskr.css);
 ```
 
-또는 HTML에서:
+또는 HTML `<head>` 안에서:
 ```
-<link rel="stylesheet" type="text/css" href="리소스_디렉토리/notosanskr-light/notosanskr.css"> <!-- 원본을 사용하고 싶으신 분은  '리소스_디렉토리/notosanskr/notosanskr.css'로 경로를 변경하세요. -->
+<link rel="stylesheet" type="text/css" href="https://rawgit.com/bek9/notosanskr-light/master/notosanskr-light/notosanskr.css">
 ```
 
-위와 같이 파일을 불러옵니다. [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 link 태그를 사용하는 것이 더 바람직합니다.
+위와 같이 파일을 불러옵니다.
 
-3.
+> - Notosanskr 원본을 사용하고 싶으신 분은 이 경로를 사용하세요: http://fonts.googleapis.com/earlyaccess/notosanskr.css
+> - 원본은 2.5 MB - 773 KB 인데 반해 light 버전은 166 - 404 KB 이므로 이 버전을 추천합니다.
+> - [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 `link` 태그를 사용하는 것이 더 바람직합니다.
+> - Rawgit은 안정성이 보장된 CDN이 아니므로 아래와 같이 직접 서빙하는 방법을 추천합니다.
+
+1-2.
+`notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
+> 원본은 2.5 MB - 773 KB 인데 반해 light 버전은 166 - 404 KB 이므로 이 버전을 추천합니다.
+
+CSS에서:
+```
+@import url(path/to/notosanskr-light/notosanskr.css);
+```
+
+또는 HTML `<head>` 안에서:
+```
+<link rel="stylesheet" type="text/css" href="path/to/notosanskr-light/notosanskr.css">
+```
+
+위와 같이 파일을 불러옵니다.
+
+2.
 이제 `font-family: 'Noto Sans KR', sans-serif;` 같은 식으로 스타일을 정의하면 폰트를 사용할 수 있습니다.
 
 ## License
@@ -42,4 +60,3 @@ Google Noto Font 라이센스에 의해 [SIL Open Font License, 1.1](http://font
  - [서브셋 폰트 메이커](http://opentype.jp/subsetfontmk.htm)
  - [otf to woff2 converter](https://everythingfonts.com/otf-to-woff2)
  - [otf to woff converter](https://everythingfonts.com/otf-to-woff)
-
