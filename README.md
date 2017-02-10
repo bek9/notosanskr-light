@@ -3,7 +3,7 @@
 ## 구성
 
  - `KS_X_1001_(3432_characters).txt` 경량화에 사용된 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 글리프 3432자입니다.
- - `notosanskr` Google에서 제공하는 [Early Access v2](https://fonts.google.com/earlyaccess#Noto+Sans+KR)를 로컬에서 사용할 수 있도록 링크를 수정한 버전입니다.
+ - `notosanskr` Google에서 제공하는 [Early Access v2](https://fonts.google.com/earlyaccess#Noto+Sans+KR)를 직접 서빙할 수 있도록 링크를 수정한 버전입니다.
  - `notosanskr-light` Google의 Early Access에서 제공하는 원본 OTF 폰트들을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
 
 ## Noto Sans KR Light 사용법
