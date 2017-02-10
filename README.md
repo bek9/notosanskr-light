@@ -4,7 +4,7 @@
 
  - `KS_X_1001_(3432_characters).txt` 경량화에 사용된 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 글리프 3432자입니다.
  - `notosanskr` Google에서 제공하는 [Early Access v2](https://fonts.google.com/earlyaccess#Noto+Sans+KR)를 직접 서빙할 수 있도록 링크를 수정한 버전입니다.
- - `notosanskr-light` Google의 Early Access에서 제공하는 원본 OTF 폰트들을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
+ - `notosanskr-light` Google의 Early Access에서 제공하는 [원본 OTF 폰트들](http://fonts.gstatic.com/ea/notosanskr/v2/download.zip)을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
 
 ## Noto Sans KR Light 사용법
 
@@ -55,8 +55,10 @@ Google Noto Font 라이센스에 의해 [SIL Open Font License, 1.1](http://font
 
  - [한글 웹 폰트 경량화해 사용하기](http://coderifleman.tumblr.com/post/111825720099/%ED%95%9C%EA%B8%80-%EC%9B%B9-%ED%8F%B0%ED%8A%B8-%EA%B2%BD%EB%9F%89%ED%99%94%ED%95%B4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
  - [스포카 한 산스와 글꼴 경량화](https://spoqa.github.io/2015/10/14/making-spoqa-han-sans.html)
+ - [NotoSansKR-Hestia by theeluwin](http://theeluwin.github.io/NotoSansKR-Hestia/)
  - [NotoSans-subset 2350자](https://raw.githubusercontent.com/UYEONG/NotoSans-subset/master/korean2350.txt)
  - [바람체 2350자](https://tumblbug.com/eyongje)
  - [서브셋 폰트 메이커](http://opentype.jp/subsetfontmk.htm)
  - [otf to woff2 converter](https://everythingfonts.com/otf-to-woff2)
  - [otf to woff converter](https://everythingfonts.com/otf-to-woff)
+ 
