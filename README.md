@@ -29,7 +29,7 @@ CSS에서:
 > - [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 `link` 태그를 사용하는 것이 더 바람직합니다.
 > - Rawgit은 안정성이 보장된 CDN이 아니므로 아래와 같이 직접 서빙하는 방법을 추천합니다.
 
-#### 1-2. Directrly serving
+#### 1-2. Directrly Serving
 
 `notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
 > 원본은 773 KB - 2.5 MB 인데 반해 light 버전은 166 - 404 KB 이므로 light 버전을 추천합니다.
