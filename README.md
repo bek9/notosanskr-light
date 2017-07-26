@@ -2,14 +2,13 @@
 
 ## 구성
 
- - `KS_X_1001_(3432_characters).txt` 경량화에 사용된 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 글리프 3432자입니다.
- - `notosanskr` Google에서 제공하는 [Early Access v2](https://fonts.google.com/earlyaccess#Noto+Sans+KR)를 직접 서빙할 수 있도록 링크를 수정한 버전입니다.
- - `notosanskr-light` Google의 Early Access에서 제공하는 [원본 OTF 폰트들](http://fonts.gstatic.com/ea/notosanskr/v2/download.zip)을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
+- `KS_X_1001_(3432_characters).txt` 경량화에 사용된 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 글리프 3432자입니다.
+- `notosanskr` Google에서 제공하는 [Early Access v2](https://fonts.google.com/earlyaccess#Noto+Sans+KR)를 직접 서빙할 수 있도록 링크를 수정한 버전입니다.
+- `notosanskr-light` Google의 Early Access에서 제공하는 [원본 OTF 폰트들](http://fonts.gstatic.com/ea/notosanskr/v2/download.zip)을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
 
 ## Noto Sans KR Light 사용법
 
-1-1.
-CDN 사용
+### 1-1. CDN 사용
 
 CSS에서:
 ```
@@ -28,7 +27,8 @@ CSS에서:
 > - [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 `link` 태그를 사용하는 것이 더 바람직합니다.
 > - Rawgit은 안정성이 보장된 CDN이 아니므로 아래와 같이 직접 서빙하는 방법을 추천합니다.
 
-1-2.
+### 1-2. 직접 서빙
+
 `notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
 > 원본은 773 KB - 2.5 MB 인데 반해 light 버전은 166 - 404 KB 이므로 light 버전을 추천합니다.
 
@@ -44,7 +44,8 @@ CSS에서:
 
 위와 같이 파일을 불러옵니다.
 
-2.
+### 2. 폰트 적용
+
 이제 `font-family: 'Noto Sans KR', sans-serif;` 같은 식으로 스타일을 정의하면 폰트를 사용할 수 있습니다.
 
 ## License
