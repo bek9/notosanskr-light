@@ -8,7 +8,9 @@
 
 ## Noto Sans KR Light 사용법
 
-### 1-1. CDN 사용
+### 폰트 불러오기
+
+#### 1-1. CDN 사용
 
 CSS에서:
 ```
@@ -27,7 +29,7 @@ CSS에서:
 > - [로딩 속도를 향상](http://www.stevesouders.com/blog/2009/04/09/dont-use-import/)시키거나 [FOUT(Flash Of Unstyled Text)](https://www.paulirish.com/2009/fighting-the-font-face-fout/)을 피하려면 `link` 태그를 사용하는 것이 더 바람직합니다.
 > - Rawgit은 안정성이 보장된 CDN이 아니므로 아래와 같이 직접 서빙하는 방법을 추천합니다.
 
-### 1-2. 직접 서빙
+#### 1-2. 직접 서빙
 
 `notosanskr` 또는 `notosanskr-light` 디렉토리를 서버 리소스 디렉토리에 옮겨두세요.
 > 원본은 773 KB - 2.5 MB 인데 반해 light 버전은 166 - 404 KB 이므로 light 버전을 추천합니다.
@@ -54,12 +56,12 @@ Google Noto Font 라이센스에 의해 [SIL Open Font License, 1.1](http://font
 
 ## References
 
- - [한글 웹 폰트 경량화해 사용하기](http://coderifleman.tumblr.com/post/111825720099/%ED%95%9C%EA%B8%80-%EC%9B%B9-%ED%8F%B0%ED%8A%B8-%EA%B2%BD%EB%9F%89%ED%99%94%ED%95%B4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
- - [스포카 한 산스와 글꼴 경량화](https://spoqa.github.io/2015/10/14/making-spoqa-han-sans.html)
- - [NotoSansKR-Hestia by theeluwin](http://theeluwin.github.io/NotoSansKR-Hestia/)
- - [NotoSans-subset 2350자](https://raw.githubusercontent.com/UYEONG/NotoSans-subset/master/korean2350.txt)
- - [바람체 2350자](https://tumblbug.com/eyongje)
- - [서브셋 폰트 메이커](http://opentype.jp/subsetfontmk.htm)
- - [otf to woff2 converter](https://everythingfonts.com/otf-to-woff2)
- - [otf to woff converter](https://everythingfonts.com/otf-to-woff)
+- [한글 웹 폰트 경량화해 사용하기](http://coderifleman.tumblr.com/post/111825720099/%ED%95%9C%EA%B8%80-%EC%9B%B9-%ED%8F%B0%ED%8A%B8-%EA%B2%BD%EB%9F%89%ED%99%94%ED%95%B4-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [스포카 한 산스와 글꼴 경량화](https://spoqa.github.io/2015/10/14/making-spoqa-han-sans.html)
+- [NotoSansKR-Hestia by theeluwin](http://theeluwin.github.io/NotoSansKR-Hestia/)
+- [NotoSans-subset 2350자](https://raw.githubusercontent.com/UYEONG/NotoSans-subset/master/korean2350.txt)
+- [바람체 2350자](https://tumblbug.com/eyongje)
+- [서브셋 폰트 메이커](http://opentype.jp/subsetfontmk.htm)
+- [otf to woff2 converter](https://everythingfonts.com/otf-to-woff2)
+- [otf to woff converter](https://everythingfonts.com/otf-to-woff)
  
