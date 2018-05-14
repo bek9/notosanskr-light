@@ -48,7 +48,7 @@ HTML에서:
 <link rel="stylesheet" type="text/css" href="path/to/notosanskr-light/notosanskr.css">
 ```
 
-위와 같이 파일을 불러옵니다.
+위와 같이 css 파일을 불러옵니다.
 
 ### 2. 폰트 사용하기
 
