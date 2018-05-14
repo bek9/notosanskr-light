@@ -1,7 +1,6 @@
 # Noto Sans KR Light
 
-Google의 [Noto Sans KR](https://fonts.google.com/earlyaccess#Noto+Sans+KR) 폰트에서 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 기본 한글 2350자와 로마 문자, 특수 문자만 추출한 폰트입니다.
-원본은 11,172자로 773 KB - 2.5 MB 이고, light 버전은 3432자로 166 - 404 KB 입니다.
+Google의 [Noto Sans KR](https://fonts.google.com/earlyaccess#Noto+Sans+KR) 폰트에서 [KS X 1001](https://ko.wikipedia.org/wiki/KS_X_1001) 기준 기본 한글 2350자와 로마 문자, 특수 문자만 추출한 폰트입니다. 원본은 11,172자로 773 KB - 2.5 MB 이고, light 버전은 3432자로 166 - 404 KB 입니다.
 
 ## 디렉토리 설명
 
