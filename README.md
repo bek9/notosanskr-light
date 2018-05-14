@@ -5,7 +5,7 @@ Google의 [Noto Sans KR](https://fonts.google.com/earlyaccess#Noto+Sans+KR) 폰�
 ## 디렉토리 설명
 
 - `KS_X_1001_(3432_characters).txt` 경량화에 사용된 기준 글리프 3432자입니다.
-- `notosanskr` https://fonts.google.com/earlyaccess#Noto+Sans+KR의 CSS 파일은 폰트를 구글 CDN에서 가져오기 때문에 직접 서빙할 수 있도록 CSS 내 URL만 상대경로로 수정한 버전입니다.
+- `notosanskr` https://fonts.google.com/earlyaccess#Noto+Sans+KR 의 CSS 파일은 폰트를 구글 CDN에서 가져오기 때문에 직접 서빙할 수 있도록 CSS 내 URL만 상대경로로 수정한 버전입니다.
 - `notosanskr-light` Google에서 제공하는 [원본 OTF 폰트들](http://fonts.gstatic.com/ea/notosanskr/v2/download.zip)을([2015-06-16에 릴리즈](http://www.google.com/get/noto/updates/)된 1.004버전으로 추정) KS X 1001 기준으로 3432자만 서브셋으로 추출한 경량화 버전입니다.
 
 ## Noto Sans KR Light 적용 방법
