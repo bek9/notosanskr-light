@@ -12,6 +12,8 @@ Google의 [Noto Sans KR](https://fonts.google.com/earlyaccess#Noto+Sans+KR) 폰�
 
 ### 1. 폰트 불러오기
 
+아래와 같이 HTML또는 CSS에서 `notosanskr.css` 파일을 불러옵니다.
+
 #### 1-1. HTML에서 폰트 불러오기
 
 직접 서빙 시
@@ -31,8 +33,6 @@ CDN 사용 시
 CDN 사용 시
 
 `@import url(https://rawgit.com/bek9/notosanskr-light/master/notosanskr-light/notosanskr.css);`
-
-위와 같이 CSS 파일을 불러옵니다.
 
 > - Rawgit은 안정성이 보장된 CDN이 아니므로 **직접 서빙하는 방법**을 추천합니다.
 > - Notosanskr 원본은 URL을 아래와 같이 바꾸면 사용할 수 있습니다.
