@@ -12,7 +12,7 @@ Google의 [Noto Sans KR](https://fonts.google.com/earlyaccess#Noto+Sans+KR) 폰�
 
 ### 1. 폰트 불러오기
 
-아래와 같이 HTML또는 CSS에서 `notosanskr.css` 파일을 불러옵니다.
+아래와 같이 HTML 또는 CSS에서 `notosanskr.css` 파일을 불러옵니다.
 
 #### 1-1. HTML에서 폰트 불러오기
 
