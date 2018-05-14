@@ -15,17 +15,21 @@ Google의 [Noto Sans KR](https://fonts.google.com/earlyaccess#Noto+Sans+KR) 폰�
 #### 1-1. HTML에서 폰트 불러오기
 
 직접 서빙 시
+
 `<link rel="stylesheet" type="text/css" href="path/to/notosanskr-light/notosanskr.css">`
 
 CDN 사용 시
+
 `<link rel="stylesheet" type="text/css" href="https://rawgit.com/bek9/notosanskr-light/master/notosanskr-light/notosanskr.css">`
 
 #### 1-2. 또는 CSS에서 폰트 불러오기
 
 직접 서빙 시
+
 `@import url(path/to/notosanskr-light/notosanskr.css);`
 
 CDN 사용 시
+
 `@import url(https://rawgit.com/bek9/notosanskr-light/master/notosanskr-light/notosanskr.css);`
 
 위와 같이 CSS 파일을 불러옵니다.
